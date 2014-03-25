@@ -14,6 +14,8 @@
 
 @implementation ViewController
 
+@synthesize managedObjectContext;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
