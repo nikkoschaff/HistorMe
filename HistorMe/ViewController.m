@@ -26,4 +26,24 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)unwindToReflections:(UIStoryboardSegue*)segue
+{
+    // TODO
+    if ([segue.identifier isEqualToString:@"OptionsCancelToReflectionsSegue"])
+    {
+        NSLog(@"Reflections unwind from Options Cancel");
+
+    }
+    else if ([segue.identifier isEqualToString:@"OptionsDoneToReflectionsSegue"])
+    {
+        NSLog(@"Reflections unwind from Options Done");
+    }
+    
+}
+
+-(IBAction)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // TODO
+}
+
 @end

@@ -21,6 +21,7 @@
 		7184794218E201F8008A1D12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7184792418E201F8008A1D12 /* UIKit.framework */; };
 		7184794A18E201F9008A1D12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7184794818E201F9008A1D12 /* InfoPlist.strings */; };
 		7184794C18E201F9008A1D12 /* HistorMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7184794B18E201F9008A1D12 /* HistorMeTests.m */; };
+		71B0856A18E21F4F00D52D4A /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B0856918E21F4F00D52D4A /* OptionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7184794718E201F9008A1D12 /* HistorMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HistorMeTests-Info.plist"; sourceTree = "<group>"; };
 		7184794918E201F9008A1D12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7184794B18E201F9008A1D12 /* HistorMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistorMeTests.m; sourceTree = "<group>"; };
+		71B0856818E21F4F00D52D4A /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		71B0856918E21F4F00D52D4A /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				7184793618E201F8008A1D12 /* ViewController.m */,
 				7184793818E201F8008A1D12 /* Images.xcassets */,
 				7184792718E201F8008A1D12 /* Supporting Files */,
+				71B0856818E21F4F00D52D4A /* OptionsViewController.h */,
+				71B0856918E21F4F00D52D4A /* OptionsViewController.m */,
 			);
 			path = HistorMe;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7184793718E201F8008A1D12 /* ViewController.m in Sources */,
+				71B0856A18E21F4F00D52D4A /* OptionsViewController.m in Sources */,
 				7184793118E201F8008A1D12 /* AppDelegate.m in Sources */,
 				7184792D18E201F8008A1D12 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				7184795118E201F9008A1D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7184795218E201F9008A1D12 /* Build configuration list for PBXNativeTarget "HistorMeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				7184795418E201F9008A1D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
