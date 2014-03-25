@@ -22,6 +22,7 @@
 		7184794A18E201F9008A1D12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7184794818E201F9008A1D12 /* InfoPlist.strings */; };
 		7184794C18E201F9008A1D12 /* HistorMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7184794B18E201F9008A1D12 /* HistorMeTests.m */; };
 		71B0856A18E21F4F00D52D4A /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B0856918E21F4F00D52D4A /* OptionsViewController.m */; };
+		71B0856D18E2212D00D52D4A /* NewReflectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B0856C18E2212D00D52D4A /* NewReflectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		7184794B18E201F9008A1D12 /* HistorMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistorMeTests.m; sourceTree = "<group>"; };
 		71B0856818E21F4F00D52D4A /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
 		71B0856918E21F4F00D52D4A /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		71B0856B18E2212D00D52D4A /* NewReflectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewReflectionViewController.h; sourceTree = "<group>"; };
+		71B0856C18E2212D00D52D4A /* NewReflectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewReflectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				7184792718E201F8008A1D12 /* Supporting Files */,
 				71B0856818E21F4F00D52D4A /* OptionsViewController.h */,
 				71B0856918E21F4F00D52D4A /* OptionsViewController.m */,
+				71B0856B18E2212D00D52D4A /* NewReflectionViewController.h */,
+				71B0856C18E2212D00D52D4A /* NewReflectionViewController.m */,
 			);
 			path = HistorMe;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				7184793718E201F8008A1D12 /* ViewController.m in Sources */,
 				71B0856A18E21F4F00D52D4A /* OptionsViewController.m in Sources */,
 				7184793118E201F8008A1D12 /* AppDelegate.m in Sources */,
+				71B0856D18E2212D00D52D4A /* NewReflectionViewController.m in Sources */,
 				7184792D18E201F8008A1D12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

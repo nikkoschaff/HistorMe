@@ -38,6 +38,15 @@
     {
         NSLog(@"Reflections unwind from Options Done");
     }
+    else if ([segue.identifier isEqualToString:@"NewReflectionCancelToReflectionsSegue"])
+    {
+        NSLog(@"Reflections unwind from New Reflection Cancel");
+        
+    }
+    else if ([segue.identifier isEqualToString:@"NewReflectionDoneToReflectionsSegue"])
+    {
+        NSLog(@"Reflections unwind from New Reflection Done");
+    }
     
 }
 

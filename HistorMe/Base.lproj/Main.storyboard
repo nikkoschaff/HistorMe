@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="894" y="121"/>
         </scene>
-        <!--View Controller - New Reflection-->
+        <!--New Reflection View Controller - New Reflection-->
         <scene sceneID="0pw-c2-s8T">
             <objects>
-                <viewController id="4Va-x1-5FZ" sceneMemberID="viewController">
+                <viewController id="4Va-x1-5FZ" customClass="NewReflectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="H9P-s2-WPO"/>
                         <viewControllerLayoutGuide type="bottom" id="c6a-Z8-aTL"/>
@@ -99,11 +99,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Reflection" id="rSA-sX-GoZ">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="A5a-eb-PgR"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="gW0-Uh-gNj"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="A5a-eb-PgR">
+                            <connections>
+                                <segue destination="lfb-Aw-shJ" kind="unwind" identifier="NewReflectionCancelToReflectionsSegue" unwindAction="unwindToReflections:" id="WNM-RO-Pnr"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="gW0-Uh-gNj">
+                            <connections>
+                                <segue destination="lfb-Aw-shJ" kind="unwind" identifier="NewReflectionDoneToReflectionsSegue" unwindAction="unwindToReflections:" id="kbU-WP-pDs"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Vv-LI-dkX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="lfb-Aw-shJ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1925" y="121"/>
         </scene>
