@@ -47,6 +47,10 @@
     {
         NSLog(@"Reflections unwind from New Reflection Done");
     }
+    else if ([segue.identifier isEqualToString:@"ReflectionDetailBackToReflectionsSegue"])
+    {
+        NSLog(@"Reflections unwind from Reflection Detail");
+    }
     
 }
 

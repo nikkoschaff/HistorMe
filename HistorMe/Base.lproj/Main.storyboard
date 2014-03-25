@@ -152,10 +152,10 @@
             </objects>
             <point key="canvasLocation" x="1381" y="126"/>
         </scene>
-        <!--View Controller - <##/##/##>-->
+        <!--Reflection Detail View Controller - <##/##/##>-->
         <scene sceneID="l8s-kI-VHa">
             <objects>
-                <viewController id="xUB-mH-EMZ" sceneMemberID="viewController">
+                <viewController id="xUB-mH-EMZ" customClass="ReflectionDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tfz-rM-jWp"/>
                         <viewControllerLayoutGuide type="bottom" id="1M9-TD-DYa"/>
@@ -166,11 +166,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="&lt;##/##/##>" id="JhM-J8-qVd">
-                        <barButtonItem key="leftBarButtonItem" title="Back" id="gvc-Eb-CO8"/>
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="gvc-Eb-CO8">
+                            <connections>
+                                <segue destination="f7R-Xe-3Qc" kind="unwind" identifier="ReflectionDetailBackToReflectionsSegue" unwindAction="unwindToReflections:" id="euS-me-qPM"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="edit" id="XFu-c5-mcC"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Av-AM-Lxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="f7R-Xe-3Qc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1907" y="839"/>
         </scene>
